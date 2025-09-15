@@ -49,16 +49,15 @@ if (isset($_POST['Login'])) {
 </head>
 <body>
     <h2>Register (Insecure)</h2>
-    <form method="POST">
+
         Username: <input type="text" name="Username"><br>
         Password: <input type="password" name="Password"><br>
         Address: <input type="text" name="Address"><br>
         Phone: <input type="text" name="PhoneNo"><br>
         <input type="submit" name="Register" value="Register">
-    </form>
 
-    <h2>Login (Insecure)</h2>
-    <form method="POST">
+    <h2>Login (Insecure)</h2
+    <form method="POS">
         Username: <input type="text" name="Username"><br>
         Password: <input type="password" name="Password"><br>
         <input type="submit" name="Login" value="Login">
