@@ -5,6 +5,8 @@
 // Database connection (hardcoded, no error handling best practices)
 $conn = mysqli_connect("localhost", "root", "", "sad_practical");
 if (!$conn) {
+
+    
     die("Connection failed: " . mysqli_connect_error());
 }
 
